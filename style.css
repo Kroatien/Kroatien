@@ -1,0 +1,195 @@
+#bgImage {  background-image: url(schwarz.jpg);
+            background-position: center center; /*vertkal und horizontal zentriert */
+            background-size: cover; /*Hintergrundbild wird so skaliert, dass immer gesamter Bereich gefüllt ist */
+            overflow: hidden; /* Inhalt wird abgeschnitten, wenn Grenzen überschritten werden*/
+            position: fixed; /* absolute Positionierung, gemessen am Browserfenster. Bleibt beim Scrollen stehen.  */
+            width: 100%;
+            height: 100%;
+            z-index: 0; /* Reihenfolge von überlappenden Elementen bestimmen */
+            top: 0px;
+            left: 0px;
+            background-attachment: scroll;
+
+        }
+
+#Kasten1 {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 400px;
+            width: 400px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 0.2; /* Deckgrad */
+            visibility:visible; }
+
+#Kasten1:hover {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 400px;
+            width: 400px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 0.9; /* Deckgrad */
+            visibility:visible; }
+
+#Kasten2 {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 195px;
+            width: 195px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 0.8; /* Deckgrad */
+            visibility:visible; }
+
+#Kasten2:hover {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 195px;
+            width: 195px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; }
+
+
+#Kasten3 {   position:absolute;
+            top:355px;
+            left:0px; 
+            height: 195px;
+            width: 195px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 0.8; /* Deckgrad */
+            visibility:visible; }
+
+#Kasten3:hover {   position:absolute;
+            top:355px;
+            left:0px; 
+            height: 195px;
+            width: 195px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; }
+
+#Kasten4 {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 400px;
+            width: 195px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 0.8; /* Deckgrad */
+            visibility:visible;
+             }
+
+#Kasten4:hover {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 400px;
+            width: 195px;
+            z-index: 2;
+            background-color: grey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible;
+             }
+
+#Kasten5 {   position:absolute;
+            top:20px;
+            left:0px; 
+            height: 100px;
+            width: 100px;
+            z-index: 2;
+            background-color: ;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+            color: #FFFFFF;}
+
+#kreis {    stroke-width: 1px;
+            stroke :#FFFFFF;
+            fill: black; }
+
+#N    {     fill: #FFFFFF;
+            opacity: 1.0;
+            font-size: 70pt; 
+            font-family:Arial;
+            font-weight:lighter; }
+
+#rect {     fill:white; 
+
+}
+
+#f {        fill: black;
+            opacity: 1.0;
+            font-size:30pt;
+            font-family:Arial; }
+
+#Kasten6 {   position:absolute;
+            top:50px;
+            left:0px; 
+            height: 50px;
+            width: 50px;
+            z-index: 2;
+            background-color: white ;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible;
+            background-image: url("facebook.jpg");
+            border-radius:25px;
+             }
+
+#Kasten7 {   position:absolute;
+            top:200px;
+            left:0px; 
+            height: 300px;
+            width: 10px;
+            z-index:1;
+            background-color:white  ;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible;
+            background-image: url("");
+             }
+
+
+
+#Kasten8 {   position:absolute;
+            top:200px;
+            left:0px; 
+            height: 300px;
+            width: 10px;
+            z-index:1;
+            background-color:white  ;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible;
+            background-image: url("");
+             }
+
+#Kasten9 
+       {   position:absolute;
+            top:110px;
+            left:0px; 
+            height: 500px;
+            width: 490px;
+            z-index:1;
+            background-color:black  ;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible;
+            background-image: url("kreuz.jpg");
+             }
+
+
+
+
