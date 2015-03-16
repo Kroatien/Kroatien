@@ -1,11 +1,11 @@
-#bgImage {  background-image: url(schwarz.jpg);
+#bgImage {  background-image: url(wall.jpg);
             background-position: center center; /*vertkal und horizontal zentriert */
             background-size: cover; /*Hintergrundbild wird so skaliert, dass immer gesamter Bereich gefüllt ist */
             overflow: hidden; /* Inhalt wird abgeschnitten, wenn Grenzen überschritten werden*/
             position: fixed; /* absolute Positionierung, gemessen am Browserfenster. Bleibt beim Scrollen stehen.  */
             width: 100%;
             height: 100%;
-            z-index: 0; /* Reihenfolge von überlappenden Elementen bestimmen */
+            z-index: 1; /* Reihenfolge von überlappenden Elementen bestimmen */
             top: 0px;
             left: 0px;
             background-attachment: scroll;
